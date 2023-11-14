@@ -1,0 +1,16 @@
+@import url(https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata);
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    margin: 0;
+
+}
+h1,h2,h3{
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
