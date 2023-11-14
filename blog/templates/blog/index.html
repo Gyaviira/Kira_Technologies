@@ -12,15 +12,10 @@ MG services
 
 
 {% block content %}
-<header id ="main-navigation">
-    <h1> <a href="">Django_Web_Developer</a> </h1>
-    <nav>
-        <a href="">All Services</a>
-    </nav>
-</header>
+
 <section id ="welcome">
     <header>
-        <img src="" alt="Mayanja The Developer">
+        <img src="{% static "blog/images/gyav.jpg" %}" alt="Mayanja The Developer">
         <h2>Mayanja Gyaviirra</h2>
     </header>
     <p>Hi I am Mayanja and I love Electronics and programming</p>
@@ -31,7 +26,7 @@ MG services
         <li>
             <article class="post">
                 <a href="" >
-                    <img src="" alt="We can move mountains">
+                    <img src="{% static "blog/images/circuit.jpg" %}" alt="We can move mountains">
                     <div class = "post-content">
                         <h3>we converse with microprocessors</h3>
                         <p>Programming is becoming our daily bread</p>
