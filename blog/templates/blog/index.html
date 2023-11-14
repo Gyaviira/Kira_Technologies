@@ -19,26 +19,23 @@ MG services
         <h2>Mayanja Gyaviirra</h2>
     </header>
     <p>Hi I am Mayanja and I love Electronics and programming</p>
+    <p>  Implemented and maintained database solutions using SQL and integrated them with C# applications.
+    </p>
 </section>
 <section id ="latest-posts">
     <h2>The latest Ideas</h2>
     <ul>
-        <li>
-            <article class="post">
-                <a href="" >
-                    <img src="{% static "blog/images/circuit.jpg" %}" alt="We can move mountains">
-                    <div class = "post-content">
-                        <h3>we converse with microprocessors</h3>
-                        <p>Programming is becoming our daily bread</p>
-                    </div>
-                </a>
-            </article>
-        </li>
+    {% include "blog/includes/post.html" %}
     </ul>
 </section>
 <section id = "about">
     <h2> What we do</h2>
     <p>We do electrical installation and maintenance, programming and coding</p>
     <p>Our goal is to keep on growing as developer </p>
+    <p>Senior Web Developer specializing in front end development. 
+        Experienced with all stages of the development cycle for dynamic web projects. 
+        Well-versed in numerous programming languages.
+         Strong background in project management and customer relations.
+    </p>
 </section>
 {% endblock content %}
