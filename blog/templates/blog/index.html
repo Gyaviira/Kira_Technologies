@@ -1,5 +1,25 @@
-{% load static %}
-<link rel="stylesheet" href="{% static '/css/index.css' %}">
+{% extends "base.html" %}
 
+{% block title %}
+MG services
+{% endblock title %}
 
-<h1>Developer</h1>
+{% block content %}
+<header>
+    <h1> <a href="">'Mayanja's Electricals</a> </h1>
+    <nav>
+        <a href="">All Services</a>
+    </nav>
+</header>
+<section id ="welcome">
+    <header>
+        <img src="" alt="Mayanja the author">
+        <h2>Mayanja Gyaviirra</h2>
+    </header>
+    <p>Hi I am Mayanja and I love Electronics and programming</p>
+</section>
+<section id ="latest-posts">
+    <h2></h2>
+</section>
+<h1>Welcome To MG Electrical Services </h1>
+{% endblock content %}
