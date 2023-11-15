@@ -15,7 +15,7 @@
  .post a :hover,
  .post :active {
      transform: scale(1.1);
-     background-color: #390281;
+     background-color: #6868dc;
      color: white;
  }
 
@@ -23,11 +23,13 @@
      width: 5rem;
      height: 5rem;
      object-fit: cover;
-     border-radius: 50%;
+     border-radius: 80%;
  }
 
  .post h3 {
      margin: 0.25rem 0;
+     color: rgb(68, 11, 11) ;
+     font-family: Helvetica;
  }
 
  .post time {
@@ -39,5 +41,5 @@
 
  .post :hover time,
  .post :active time {
-     color: white;
+     color: rgb(60, 37, 37);
  }
