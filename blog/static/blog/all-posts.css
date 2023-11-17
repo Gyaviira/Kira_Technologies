@@ -1,12 +1,10 @@
-body {
-    background-color: #e7e7e7c2;
+ body {
+    background-color: #95B9C7;
 }
 #main-navigation {
-    background-color: #60b0b690;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    background-color: #151B54;
+    box-shadow: 0 2px 8px rgba(94, 6, 6, 0.25);
 }
-
-
 #all-posts {
     margin: 7rem auto;
     width: 90%;
@@ -15,8 +13,8 @@ body {
 #all-posts h2 {
     text-align: center;
     font-size: 2rem;
-    color: #472020;
-    margin: 3rem 0;
+    color: #2E1A47;
+    margin: 7rem 0;
 
 }
 ul {
@@ -24,9 +22,10 @@ ul {
     margin: 0;
     padding: 0;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(17rem,1fr));
-    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(17rem,2fr));
+    gap: 1.5rem;
 }
+
 .post img {
     width: 7rem;
     height: 7rem;

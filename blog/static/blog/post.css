@@ -4,42 +4,51 @@
      align-items: center;
      text-align: center;
  }
-
  .post a {
      text-decoration: none;
-     color: black;
-     transition: all 0.2s ease;
+     color: #000080;
+     transition: all 0.5s ease;
      padding: 1rem;
+     font-family: Arial, Helvetica, sans-serif;
  }
 
- .post a :hover,
- .post :active {
+    .post a :hover,
+    .post :active {
      transform: scale(1.1);
-     background-color: #6868dc;
-     color: white;
+     background-color: rgb(94, 124, 222);
+     color: wheat;
  }
 
- .post img {
-     width: 5rem;
-     height: 5rem;
-     object-fit: cover;
-     border-radius: 80%;
- }
+  .post img {
+      width: 5rem;
+      height: 5rem;
+      object-fit: cover;
+      border-radius: 70%;
+  }
 
  .post h3 {
      margin: 0.25rem 0;
-     color: rgb(68, 11, 11) ;
+     color: rgb(6, 6, 69);
      font-family: Helvetica;
+ } 
+
+ .post p {
+        list-style: none;
+            margin: 0;
+            padding: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(17rem, 2fr));
+            gap: 1.5rem;
  }
 
- .post time {
-     color: #666666;
+  .post time {
+     color: white;
      margin: 0.25rem;
      font-style: italic;
      font-size: 0.85rem;
  }
 
- .post :hover time,
- .post :active time {
-     color: rgb(60, 37, 37);
- }
+    .post :hover time,
+    .post :active time {
+     color: rgb(234, 29, 29);
+    }
